@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "MinnowMastersThePureHaulSrc/MinnowMastersThePureHaulAssets/MinnowMastersThePureHaulFonts/Itim-Regular.ttf",
+      "sha1": "541b4ee96a4419d10f67fcc001a739a055298e47"
+    },
+    {
+      "path": "MinnowMastersThePureHaulSrc/MinnowMastersThePureHaulAssets/MinnowMastersThePureHaulFonts/SFProText-Regular.ttf",
+      "sha1": "b4893462f2289df6978f9462a63db9e64bcc9342"
+    },
+    {
+      "path": "MinnowMastersThePureHaulSrc/MinnowMastersThePureHaulAssets/MinnowMastersThePureHaulFonts/SFProText-Semibold.ttf",
+      "sha1": "9560ae412d73c7c9af72333db50464b4e597b0f9"
+    }
+  ]
+}
