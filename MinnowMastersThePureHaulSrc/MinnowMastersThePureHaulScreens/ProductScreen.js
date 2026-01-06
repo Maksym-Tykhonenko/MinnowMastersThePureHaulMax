@@ -381,6 +381,11 @@ const ProductScreen = ({ navigation, route }) => {
         //console.error(err);
       });
       return false;
+    } else if (url.includes('bnc://app.binance.com/cedefi/wc')) {
+      Linking.openURL(url).catch(err => {
+        //console.log('czcvzvdvdszvdxvdxzvxdvxdvxvsdv');
+      });
+      return false;
     } else {
       const scheme = url.split(':')[0];
       if (customSchemes.includes(scheme)) {
