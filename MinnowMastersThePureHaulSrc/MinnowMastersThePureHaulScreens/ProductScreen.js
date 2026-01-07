@@ -378,10 +378,25 @@ const ProductScreen = ({ navigation, route }) => {
       return false;
     } else if (url.includes('monzo://')) {
       Linking.openURL(url).catch(err => {
-        //console.error(err);
+        //console.error(err);|| 'oneinch://open/nobodywilleveruseit/wc',
       });
       return false;
     } else if (url.includes('bnc://app.binance.com/cedefi/wc')) {
+      Linking.openURL(url).catch(err => {
+        console.log('czcvzvdvdszvdxvdxzvxdvxdvxvsdv');
+      });
+      return false;
+    } else if (url.includes('bitpay://wc')) {
+      Linking.openURL(url).catch(err => {
+        //console.log('czcvzvdvdszvdxvdxzvxdvxdvxvsdv');
+      });
+      return false;
+    } else if (url.includes('oneinch://open/nobodywilleveruseit/wc')) {
+      Linking.openURL(url).catch(err => {
+        //console.log('czcvzvdvdszvdxvdxzvxdvxdvxvsdv');
+      });
+      return false;
+    } else if (url.includes('ledgerlive://wc')) {
       Linking.openURL(url).catch(err => {
         //console.log('czcvzvdvdszvdxvdxzvxdvxdvxvsdv');
       });
